@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.test.report.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.testcases.TestCases">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyAuthorsByClickingOnSideBarBtn"/>
+          <include name="verifyAuthorsByClickingOnNavigationBarBtn"/>
+          <include name="setDriver"/>
+          <include name="clearTextBoxWhileEditBook"/>
+          <include name="searchBook"/>
+        </methods>
+      </class> <!-- com.test.testcases.TestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

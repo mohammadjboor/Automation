@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="13" total="15" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="28991" started-at="2022-01-27T15:08:07Z" finished-at="2022-01-27T15:08:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28991" started-at="2022-01-27T15:08:07Z" finished-at="2022-01-27T15:08:36Z">
+      <class name="com.test.testcases.TestCases">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.test.testcases.TestCases@6eda5c9]" name="setDriver" is-config="true" duration-ms="8991" started-at="2022-01-27T17:08:07Z" finished-at="2022-01-27T17:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="verifyBooksByClickingOnSideBarBtn()[pri:0, instance:com.test.testcases.TestCases@6eda5c9]" name="verifyBooksByClickingOnSideBarBtn" duration-ms="1430" started-at="2022-01-27T17:08:16Z" finished-at="2022-01-27T17:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBooksByClickingOnSideBarBtn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.testcases.TestCases@6eda5c9]" name="closeBrowser" is-config="true" duration-ms="138" started-at="2022-01-27T17:08:18Z" finished-at="2022-01-27T17:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.test.testcases.TestCases@6eda5c9]" name="setDriver" is-config="true" duration-ms="13981" started-at="2022-01-27T17:08:18Z" finished-at="2022-01-27T17:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="verifyBooksByClickingOnNavigationBarBtn()[pri:0, instance:com.test.testcases.TestCases@6eda5c9]" name="verifyBooksByClickingOnNavigationBarBtn" duration-ms="3859" started-at="2022-01-27T17:08:32Z" finished-at="2022-01-27T17:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBooksByClickingOnNavigationBarBtn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.testcases.TestCases@6eda5c9]" name="closeBrowser" is-config="true" duration-ms="544" started-at="2022-01-27T17:08:36Z" finished-at="2022-01-27T17:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.testcases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>
